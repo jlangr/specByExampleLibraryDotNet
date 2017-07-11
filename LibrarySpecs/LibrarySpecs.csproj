@@ -90,6 +90,7 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="LibrarySteps\Helpers\LibraryClient.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="LibrarySteps\PatronBorrowing\FinesSteps.cs" />
     <Compile Include="LibraryFeatures\PatronBorrowing\Fines.feature.cs">
@@ -108,7 +109,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="LibraryFeatures\Scanner\" />
-    <Folder Include="LibrarySteps\Helpers\" />
     <Folder Include="LibrarySteps\Scanner\" />
   </ItemGroup>
   <ItemGroup>
